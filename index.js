@@ -17,7 +17,9 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:'process.env.PORT',
+
+    origin:'https://hire-hub-three.vercel.app',
+-
     credentials:true
 }
 
